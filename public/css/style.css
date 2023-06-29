@@ -1,0 +1,47 @@
+
+
+
+.background-image {
+    background-image: url(https://neohistoria.net/wp-content/uploads/2022/10/Header-website.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 16vh;
+}
+.background-image-index {
+    background-image: url(https://neohistoria.net/wp-content/uploads/2022/10/Header-website.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 90vh;
+    padding-top: 50px;
+}
+
+
+
+.nav-wrapper {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-wrapper .nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-wrapper .nav li {
+    margin: 0 10px;
+}
+
+.nav-wrapper .nav li a {
+    color: #333;
+    text-decoration: none;
+}
